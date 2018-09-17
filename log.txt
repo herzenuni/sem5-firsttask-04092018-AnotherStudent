@@ -1,0 +1,20 @@
+INFO:root:params:['prog2.py', '1']
+INFO:root:out:один
+INFO:root:params:['prog2.py', '4']
+INFO:root:out:четыре
+INFO:root:params:['prog2.py', '9']
+INFO:root:out:девять
+INFO:root:params:['prog2.py', '-1']
+ERROR:root:error:Out of range in 1 parameter
+INFO:root:params:['prog2.py']
+ERROR:root:error:Too low parameters
+INFO:root:params:['prog2.py', '1', '2', '3']
+ERROR:root:error:Too many parameters
+INFO:root:params:['prog2.py', '100', 'bin']
+INFO:root:out:0b1100100
+INFO:root:params:['prog2.py', '100', 'hex']
+INFO:root:out:0x64
+INFO:root:params:['prog2.py', '100', 'oct']
+INFO:root:out:0o144
+INFO:root:params:['prog2.py', '****']
+ERROR:root:error:Bad number
